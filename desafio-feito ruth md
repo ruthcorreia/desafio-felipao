@@ -1,0 +1,31 @@
+// Variáveis para o nome do herói e a experiência (XP)
+let heroi = "Mulher maravilha ";
+let xp = 7000 // XP começa em 0
+
+
+
+
+        if (xp < 1000) {
+    console.log(heroi + "está no nível: ferro");}
+    else if (xp >= 1001 &&  xp <=2000) {
+    console.log(heroi + "está no nível: bronze");}
+    else if (xp >= 2001 && xp<=5000) {
+    console.log(heroi + "está no nível: prata");}
+    else if (xp >= 5001 && xp<= 7000) {
+    console.log(heroi + "está no nível: ouro");}
+    else if (xp >= 7001 && xp<= 8000){
+    console.log(heroi +"está no nível: platina");}
+    else if (xp >= 8001 && xp <=9000) {
+    console.log(heroi + "está no nível: ascendente");}
+    else if (xp >= 9001 && xp <=10001){
+     console.log(heroi + "está no nível: imortal" )}
+    else if (xp > 10001){
+    console.log(heroi + "está no nível radiante")}
+    
+    // Laço de repetição
+while (xp <= 10000) {  // até a XP chegar a 10000
+    // Estrutura de decisão para exibir mensagem baseada na XP
+ 
+  
+    xp += 1000;}
+
